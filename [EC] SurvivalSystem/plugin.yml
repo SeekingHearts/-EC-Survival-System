@@ -1,6 +1,6 @@
 name: SurvivalSystem
 version: 1.0
-authors: [Aaron alias TheSaltyOne]
+authors: [Aaron alias TheSaltyOne, Patrick]
 main: me.aaron.survivalsystem.main.Main
 
 commands:
