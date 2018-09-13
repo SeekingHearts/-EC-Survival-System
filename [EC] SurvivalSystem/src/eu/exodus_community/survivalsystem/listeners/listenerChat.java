@@ -1,12 +1,12 @@
-package me.aaron.survivalsystem.listeners;
+package eu.exodus_community.survivalsystem.listeners;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerChatEvent;
 
-import me.aaron.survivalsystem.main.Main;
-import me.aaron.survivalsystem.utils.PlayerUtils;
+import eu.exodus_community.survivalsystem.main.Main;
+import eu.exodus_community.survivalsystem.utils.PlayerUtils;
 
 public class listenerChat implements Listener {
 

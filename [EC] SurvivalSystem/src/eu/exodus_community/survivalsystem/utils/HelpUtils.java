@@ -1,4 +1,4 @@
-package me.aaron.survivalsystem.utils;
+package eu.exodus_community.survivalsystem.utils;
 
 import org.bukkit.entity.Player;
 

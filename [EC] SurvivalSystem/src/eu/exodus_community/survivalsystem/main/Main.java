@@ -1,4 +1,4 @@
-package me.aaron.survivalsystem.main;
+package eu.exodus_community.survivalsystem.main;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import com.sk89q.worldedit.bukkit.WorldEditPlugin;
 
-import me.aaron.survivalsystem.commands.cmdSetup;
+import eu.exodus_community.survivalsystem.commands.cmdSetup;
 
 public class Main extends JavaPlugin {
 
