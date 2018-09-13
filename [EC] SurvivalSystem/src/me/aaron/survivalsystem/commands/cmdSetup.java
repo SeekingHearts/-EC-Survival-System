@@ -1,4 +1,4 @@
-package eu.exodus_community.survivalsystem.commands;
+package me.aaron.survivalsystem.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -6,8 +6,8 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import eu.exodus_community.survivalsystem.main.Main;
-import eu.exodus_community.survivalsystem.utils.PlayerUtils;
+import me.aaron.survivalsystem.main.Main;
+import me.aaron.survivalsystem.utils.PlayerUtils;
 
 public class cmdSetup implements CommandExecutor {
 

@@ -1,4 +1,4 @@
-package eu.exodus_community.survivalsystem.utils;
+package me.aaron.survivalsystem.utils;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import eu.exodus_community.survivalsystem.main.Main;
+import me.aaron.survivalsystem.main.Main;
 
 public class PlayerUtils {
 

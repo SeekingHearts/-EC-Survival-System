@@ -1,4 +1,4 @@
-package eu.exodus_community.survivalsystem.main;
+package me.aaron.survivalsystem.main;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,8 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import com.sk89q.worldedit.bukkit.WorldEditPlugin;
 
-import eu.exodus_community.survivalsystem.commands.cmdSetup;
+import me.aaron.survivalsystem.commands.cmdSetup;
+import me.patrick.survivalsystem.commands.cmdRandomTP;
 
 public class Main extends JavaPlugin {
 
@@ -49,6 +50,7 @@ public class Main extends JavaPlugin {
 	
 	private void initCommands() {
 		getCommand("setup").setExecutor(new cmdSetup());
+		getCommand("rtp").setExecutor(new cmdRandomTP());
 	}
 	
 	private void setupConfig() {
