@@ -1,0 +1,13 @@
+name: SurvivalSystem
+version: 1.0
+authors: [Aaron alias TheSaltyOne]
+main: me.aaron.survivalsystem.main.Main
+
+commands:
+  setup:
+    description: Does the setup mode
+    permission: survivalsystem.setup
+
+permissions:
+  survivalsystem.setup:
+    description: Allows the setup command
