@@ -11,6 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import com.sk89q.worldedit.bukkit.WorldEditPlugin;
 
 import me.aaron.survivalsystem.commands.cmdSetup;
+import me.patrick.survivalsystem.commands.cmdRandomTP;
 
 public class Main extends JavaPlugin {
 
@@ -49,6 +50,7 @@ public class Main extends JavaPlugin {
 	
 	private void initCommands() {
 		getCommand("setup").setExecutor(new cmdSetup());
+		getCommand("rtp").setExecutor(new cmdRandomTP());
 	}
 	
 	private void setupConfig() {
